@@ -10,7 +10,7 @@ void setup()
         pinMode(i, OUTPUT);
     for (int i = 31; i <= 38; i++)
         digitalWrite(i, 1);
-    attachInterrupt(4, f, RISING);
+    attachInterrupt(digitalPinToInterrupt(19), f, RISING);
 }
 ```
 ## 按钮的按下处理
