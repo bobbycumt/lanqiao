@@ -24,22 +24,31 @@ void setup()
     mylcd.clear();
     pinMode(22, INPUT);
     pinMode(25, INPUT);
+    pinMode(29, INPUT);
 }
 
 void loop()
 {
+    if(digitalRead(29))
+    {
+        while (digitalRead(29))
+        {
+            ;
+        }
+        item=random(1000,9999);
+    }
     if (digitalRead(22))
     {
-        for (int i = 0; i <= 3; i = i + (1))
+        for (int i = 0; i <= 3; i++)
         {
-            f = String(String(String(item)).charAt(i)).toInt();
-            mylist[f] = mylist[f] + 1;
+            f = String(String(item).charAt(i)).toInt();
+            mylist[f]++;
         }
-        for (int i = 0; i <= 9; i = i + (1))
+        for (int i = 0; i <= 9; i++)
         {
             while (mylist[i] > 0)
             {
-                s = String(s) + String(i);
+                s = s + String(i);
                 mylist[i]--;
             }
         }
@@ -51,16 +60,16 @@ void loop()
     }
     if (digitalRead(25))
     {
-        for (int i = 0; i <= 3; i = i + (1))
+        for (int i = 0; i <= 3; i++)
         {
-            f = String(String(String(item)).charAt(i)).toInt();
-            mylist[f] = mylist[f] + 1;
+            f = String(String(item).charAt(i)).toInt();
+            mylist[f]++;
         }
-        for (int i = 9; i >= 0; i = i + (-1))
+        for (int i = 9; i >= 0; i--)
         {
             while (mylist[i] > 0)
             {
-                s = String(s) + String(i);
+                s = s + String(i);
                 mylist[i]--;
             }
         }
