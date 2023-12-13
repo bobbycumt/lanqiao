@@ -1,5 +1,12 @@
+#include <Arduino.h>
+#line 1 "E:\\arduino_sketch\\lanqiao\\test\\test.ino"
 String s = "";
 int a, b = 0;
+#line 3 "E:\\arduino_sketch\\lanqiao\\test\\test.ino"
+void setup();
+#line 8 "E:\\arduino_sketch\\lanqiao\\test\\test.ino"
+void loop();
+#line 3 "E:\\arduino_sketch\\lanqiao\\test\\test.ino"
 void setup()
 {
     Serial.begin(9600);

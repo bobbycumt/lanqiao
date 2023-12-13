@@ -1,3 +1,4 @@
+# 1 "E:\\arduino_sketch\\lanqiao\\test\\test.ino"
 String s = "";
 int a, b = 0;
 void setup()
