@@ -1,5 +1,4 @@
 #include <LiquidCrystal_I2C.h>
-
 LiquidCrystal_I2C lcd(32, 16, 2);
 int n, c = 0, i;
 char s[20];
