@@ -1,18 +1,12 @@
-int i;
-
+String s = "1q2w3e";
 void setup()
 {
-    i = 15;
-    Serial.begin(9600);
-    for (i = 1; i <= 10; i = i + (1))
-    {
-        Serial.println(i);
-    }
-    for (i = 10; i >= 1; i = i + (-1))
-    {
-        Serial.println(i);
-    }
-    Serial.println(i);
+  Serial.begin(115200);
+  for (int i = 0; i < s.length(); i++)
+  {
+      Serial.print(s.charAt(i) + 1);
+      Serial.println();
+  }
 }
 
 void loop()
