@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-String s = "1q2w3e";
-void setup()
-{
-  Serial.begin(115200);
-  for (int i = 0; i < s.length(); i++)
-  {
-      Serial.print(s.charAt(i) + 1);
-      Serial.println();
-  }
-=======
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
@@ -23,13 +12,10 @@ void setup()
     mylcd.init();
     mylcd.backlight();
     pinMode(22, INPUT);
->>>>>>> 4a99dd065d4243444f2e3a4fc5c94e7d62687e47
 }
 
 void loop()
 {
-<<<<<<< HEAD
-=======
     if (digitalRead(22))
     {
         delay(2000);
@@ -63,5 +49,4 @@ void loop()
         }
         c=0;
     }
->>>>>>> 4a99dd065d4243444f2e3a4fc5c94e7d62687e47
 }

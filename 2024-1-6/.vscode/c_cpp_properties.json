@@ -3,11 +3,7 @@
     "configurations": [
         {
             "name": "Arduino",
-<<<<<<< HEAD
-            "compilerPath": "C:\\Users\\Administrator\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin\\avr-g++",
-=======
             "compilerPath": "C:\\Users\\bobby\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\bin\\avr-g++",
->>>>>>> 4a99dd065d4243444f2e3a4fc5c94e7d62687e47
             "compilerArgs": [
                 "-w",
                 "-std=gnu++11",
@@ -20,16 +16,6 @@
             ],
             "intelliSenseMode": "gcc-x64",
             "includePath": [
-<<<<<<< HEAD
-                "C:\\Users\\Administrator\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino",
-                "C:\\Users\\Administrator\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\standard",
-                "c:\\users\\administrator\\appdata\\local\\arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\lib\\gcc\\avr\\7.3.0\\include",
-                "c:\\users\\administrator\\appdata\\local\\arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\lib\\gcc\\avr\\7.3.0\\include-fixed",
-                "c:\\users\\administrator\\appdata\\local\\arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7\\avr\\include"
-            ],
-            "forcedInclude": [
-                "C:\\Users\\Administrator\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Arduino.h"
-=======
                 "C:\\Users\\bobby\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.5\\cores\\arduino",
                 "C:\\Users\\bobby\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.5\\variants\\mega",
                 "C:\\Users\\bobby\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.5\\libraries\\Wire\\src",
@@ -40,18 +26,13 @@
             ],
             "forcedInclude": [
                 "C:\\Users\\bobby\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.5\\cores\\arduino\\Arduino.h"
->>>>>>> 4a99dd065d4243444f2e3a4fc5c94e7d62687e47
             ],
             "cStandard": "c11",
             "cppStandard": "c++11",
             "defines": [
                 "F_CPU=16000000L",
                 "ARDUINO=10607",
-<<<<<<< HEAD
-                "ARDUINO_AVR_UNO",
-=======
                 "ARDUINO_AVR_MEGA2560",
->>>>>>> 4a99dd065d4243444f2e3a4fc5c94e7d62687e47
                 "ARDUINO_ARCH_AVR",
                 "__DBL_MIN_EXP__=(-125)",
                 "__HQ_FBIT__=15",
